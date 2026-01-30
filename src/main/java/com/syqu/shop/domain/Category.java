@@ -40,4 +40,28 @@ public class Category {
     public int hashCode() {
         return Objects.hash(id);
     }
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
+    }
+
+    public String getCategoryName() {
+        return categoryName;
+    }
+
+    public void setCategoryName(String categoryName) {
+        this.categoryName = categoryName;
+    }
+
+    public Set<Product> getBooks() {
+        return books;
+    }
+
+    public void setBooks(Set<Product> books) {
+        this.books = books;
+    }
 }
